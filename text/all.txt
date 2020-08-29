@@ -1,0 +1,46 @@
+<div class="row">
+<div class="col-sm-4">
+    <div class="produkdanlayanan__rectangle" onclick="window.location.href = 'porto-xl.html'">
+        <img src="img/portofolio/xlaxiata.png" class="img-fluid produkdanlayanan__rectangle--img" alt="" srcset="">
+    </div>
+    <div class="color--grey mt-3">PT XL Axiata Tbk</div>
+    <div class="color--grey"><small>(2005 - sekarang)</small></div>
+</div>
+<div class="col-sm-4">
+    <div class="produkdanlayanan__rectangle" onclick="window.location.href = 'porto-telkomsel.html'">
+        <img src="img/portofolio/telkomsel.png" class="img-fluid produkdanlayanan__rectangle--img" alt="" srcset="">                                
+    </div>
+    <div class="color--grey mt-3">PT Telekomunikasi Indonesia, Tbk</div>
+    <div class="color--grey"><small>17 Agustus 1945</small></div>
+</div>
+<div class="col-sm-4">
+    <div class="produkdanlayanan__rectangle" onclick="window.location.href = 'porto-sistercompany.html'">
+        <img src="img/portofolio/sm3.png" class="img-fluid produkdanlayanan__rectangle--img" alt="" srcset="">                                
+    </div>
+    <div class="color--grey mt-3">Sunday Market, Soledad and the Sister Company</div>
+    <div class="color--grey"><small>2019</small></div>
+</div>                        
+</div>
+<div class="row mt-5">
+<div class="col-sm-4">
+    <div class="produkdanlayanan__rectangle" onclick="window.location.href = 'porto-janjijiwa.html'">
+        <img src="img/portofolio/janjijiwa2.png" class="img-fluid produkdanlayanan__rectangle--img" alt="" srcset="">
+    </div>
+    <div class="color--grey mt-3">Janji Jiwa Mulyorejo</div>
+    <div class="color--grey"><small>2019</small></div>
+</div>
+<div class="col-sm-4">
+    <div class="produkdanlayanan__rectangle" onclick="window.location.href = 'porto-tedx.html'">
+        <img src="img/portofolio/tedx1.png" class="img-fluid produkdanlayanan__rectangle--img" alt="" srcset="">
+    </div>
+    <div class="color--grey mt-3">TEDx Jalan Tunjungan Women</div>
+    <div class="color--grey"><small>2019</small></div>
+</div>
+<div class="col-sm-4">
+    <div class="produkdanlayanan__rectangle" onclick="window.location.href = 'porto-ace.html'">
+        <img src="img/portofolio/ace.png" class="img-fluid produkdanlayanan__rectangle--img" alt="" srcset="">
+    </div>
+    <div class="color--grey mt-3">Ace Human Resource</div>
+    <div class="color--grey"><small>2020</small></div>
+</div>
+</div>

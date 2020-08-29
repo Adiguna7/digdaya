@@ -1,0 +1,361 @@
+@font-face{
+    font-family: 'sfprodisplay';
+    src: url('../fonts/SFProDisplay-Regular.ttf');
+}
+
+*{
+    font-family: 'sfprodisplay';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+hr{
+    border-top: 1px solid #37A9D9;
+}
+
+.logo{
+    &--small{
+        max-height: 75px;
+    }
+}
+
+.nav{
+    &__text--blue{
+        letter-spacing: 0.75px;
+        color: #37A9D9 !important;
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+}
+
+// .text{
+
+// }
+
+.color{
+    &--blue{
+        color: #37A9D9 !important;
+    }
+    &--grey{
+        color: #797676;
+    }
+}
+
+.hero{
+    &__text{
+        margin-top: 2rem;
+    }
+    &__text2{
+        font-size: 4rem;
+        font-weight: bold;
+        font-style: italic;
+        letter-spacing: 3px;
+    }
+}
+
+.tentangkami{
+    // &__img{
+    //     // max-width: 90%;
+    // }
+    &__rectangle{
+        width: fit-content;
+        height: fit-content;
+        background-color:  #37A9D9;
+        border-radius: 5px;
+        padding: 25px 15px 25px 15px;
+        color: white;
+        transform: translate(-35px,-175px);
+    }
+    &__text--blue{
+        color: #37A9D9;
+        font-size: 2rem;
+    }
+    &__text--detail{
+        font-size: 0.7rem;
+    }
+    &__tagline{
+        color: #37A9D9;
+        font-style: italic;
+    }
+}
+
+.produklayanan{
+    &__text--detail{
+        color: #797676;
+    }
+}
+
+.button__produklayanan{
+    width: 250px;
+    height: 68px;
+    padding: 10px 20px 10px 20px;
+    color: #37A9D9;
+    background-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    background-clip: border-box;
+    // font-weight: 600;
+
+    &--text{
+        width: 50%;
+    }
+    &:hover{
+        color: white;
+        background-color: #37A9D9;                    
+    }
+}
+
+.portofolio{
+    color: white;
+    &__judul{
+        font-size: 2rem;
+        color: white;
+    }
+    &__rectangle{
+        background-color: white;
+        width: 350px;
+        height: 350px;
+        overflow-y: hidden;
+        margin: 0 15px 0 15px;                
+    }
+}
+
+.beritaterkini{
+    &__text--big{
+        font-size: calc(25px + (40 - 25) * ((100vw - 300px) / (1600 - 300)));
+    }   
+    &__text--small{
+        font-size: calc(16px + (30 - 16) * ((100vw - 300px) / (1600 - 300)));
+    }
+}
+
+.contact{
+    &__text{
+        font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+    }    
+}
+
+.button{
+    &__portofolio{
+        width: fit-content;
+        height: fit-content;
+        border-radius: 25px;
+        padding: 15px 20px 15px 20px;
+        background-color: white;
+        color: #37A9D9;
+    }
+}
+
+.produkdanlayanan{
+    &__rectangle{
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        cursor: pointer;                
+
+        &--img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;                  
+        }
+    }
+    
+    &__text--tahun{
+        font-size: small;
+    }
+}
+
+#produklayanan{
+    background-color: #F2F2F2;
+    padding-bottom: 100px;
+}
+
+#portofolio{
+    background-color: #37A9D9;
+    padding-top: 100px;
+    padding-bottom: 100px; 
+}
+
+#footer{
+    background-color: #37A9D9;
+    color: white;
+    padding: 20px 0 20px 0;
+    font-size: calc(11px + (15 - 11) * ((100vw - 320px) / (1600 - 320)));
+}
+
+
+.herorm{
+    &__img{
+        background-image: url('../img/layanan/Infrastruktur\ Radio.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.heroso{
+    &__img{
+        background-image: url('../img/layanan/Infrastruktur\ Fiber.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.heroiot{
+    &__img{
+        background-image: url('../img/layanan/iot.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.heroenergi{
+    &__img{
+        background-image: url('../img/layanan/energi.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.heroaktivasikonten{
+    &__img{
+        background-image: url('../img/layanan/aktivasikonten.png');
+        background-position: center center;
+        background-size: cover;
+
+        &--text{
+            font-size: calc(12px + (16 - 12) * ((100vw - 300px) / (1600 - 300)));
+        }
+    }    
+}
+
+.heroblockchain{
+    &__img{
+        background-image: url('../img/layanan/blockchain.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.heroxl{
+    &__img{
+        background-image: url('../img/portofolio/xlaxiata.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.herotelkomsel{
+    &__img{
+        background-image: url('../img/portofolio/telkomsel.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.herosistercompany{
+    &__img{
+        background-image: url('../img/portofolio/sistercompany.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.herotedx{
+    &__img{
+        background-image: url('../img/portofolio/tedx.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.herooverdoze{
+    &__img{
+        background-image: url('../img/portofolio/overdoze.png');
+        max-height: 699px;
+        background-position: top center;
+        background-size: cover;
+        overflow: hidden;
+    }
+}
+
+.herowilwatikta{
+    &__img{
+        background-image: url('../img/portofolio/wilwatikta.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+.heroace{
+    &__img{
+        background-image: url('../img/portofolio/ace.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+.herojanjijiwa{
+    &__img{
+        background-image: url('../img/portofolio/janjijiwa.png');
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
+
+#explanationrm{
+    margin-bottom: 100px;
+}
+
+.explanationrm{
+    &__text--judul{        
+        font-size: 1.5rem;
+    }
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
+
+    &__img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    &__item--1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+
+    &__item--2{
+        grid-column-start: 3;
+        grid-column-end: 9;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    &__item--3{
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+    &__item--4{
+        grid-column-start: 7;
+        grid-column-end: 9;
+        grid-row-start: 5;
+        grid-row-end: 9;
+    }
+}
+
+
+// setup bgimage
+
+a{
+    color: black !important;
+}

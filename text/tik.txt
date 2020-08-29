@@ -1,0 +1,16 @@
+<div class="row">
+<div class="col-sm-4">
+    <div class="produkdanlayanan__rectangle" onclick="window.location.href = 'porto-xl.html'">
+        <img src="img/portofolio/xlaxiata.png" class="img-fluid produkdanlayanan__rectangle--img" alt="" srcset="">
+    </div>
+    <div class="color--grey mt-3">PT XL Axiata Tbk</div>
+    <div class="color--grey"><small>(2005 - sekarang)</small></div>
+</div>
+<div class="col-sm-4">
+    <div class="produkdanlayanan__rectangle" onclick="window.location.href = 'porto-telkomsel.html'">
+        <img src="img/portofolio/telkomsel.png" class="img-fluid produkdanlayanan__rectangle--img" alt="" srcset="">                                
+    </div>
+    <div class="color--grey mt-3">PT Telekomunikasi Indonesia, Tbk</div>
+    <div class="color--grey"><small>17 Agustus 1945</small></div>
+</div>                        
+</div>
